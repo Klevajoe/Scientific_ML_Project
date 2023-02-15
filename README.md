@@ -6,7 +6,7 @@ Project Description:
 
 Detecting outliers in multivariate datasets can be challenging.  This is because in multiple dimensions there are several directions in which a point can be an outlier. When we think of outlier identification, it is easy to detect in 1-D (univariate), 2-D (bivariate), and more manageable in 3-D datasets. This is because of the visualization ease and available multivariate and/or statistical methods cater to the identification of outliers in 1-D, 2-D spaces. However, in oil and gas most datasets are multidimensional making it susceptible to the curse of dimensionality, which makes outlier identification a non-trivial task since highly dimensional spaces cannot be visualized without appropriate dimensionality reduction methods. The coupling effect of the curse and outliers in multidimensional datasets makes outlier identification important given it may lead to erroneous inferences and decision-making if machine learning models are built on such data without appropriate preprocessing.
 
-To this end, we propose to use an autoencoder architecture to identify and detect multivariate outlier samples in a space of low dimensionality i.e., the latent space with an appropriate cost function. Afterward, we will then compare our methods with existing methodologies such as Mahalanobis distance, Tukey, isolation forest, Elliptic envelope, and local outlier factor methods on a toy dataset as ground truth, then apply it to actual petroleum datasets. We hypothesisze that our method will be more robust and generalizable across multiple dimensions. 
+To this end, we propose to use an autoencoder architecture to identify and detect multivariate outlier samples in a space of low dimensionality i.e., the latent space with an appropriate cost function. Afterwards, we will then compare our methods with existing methodologies such as Mahalanobis distance, Tukey, isolation forest, Elliptic envelope, and local outlier factor methods on a toy dataset as ground truth, then apply it to actual petroleum datasets. We hypothesisze that our method will be more robust and generalizable across multiple dimensions. 
 
 
 Goals:
@@ -23,7 +23,7 @@ Github data repository:  https://github.com/JoseLuisHerme/Scientific_ML_Project/
 
 About the data:
 
-This is a petroleum dataset obtained from a variety of rod pump production equipment in an oil field located at North Dakota. The multidimensional dataset consists of 25 features and 2597 samples. There are 24 predictor features (categorical and numerical) and a response feature, failure type, which corresponds failure types that can occur when producing oil and gas well.
+This is a petroleum dataset obtained from a variety of rod pump production equipment at an oil field located in North Dakota. The multidimensional dataset consists of 25 features and 2597 samples. There are 24 predictor features (both categorical and numerical) and a response feature, failure type, which correspond to failure types that can occur when producing oil and gas wells.
 
 References
 
